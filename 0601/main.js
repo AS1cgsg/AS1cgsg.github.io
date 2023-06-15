@@ -1,4 +1,11 @@
-import {mat4, vec3} from "./mth/mat4.js";
+import {
+  vec3,
+  mat4,
+  MatrIdentity,
+  MatrTranspose,
+  MatrMulMatr,
+} from "../mth/math.js";
+export { vec3, mat4, MatrIdentity };
 
 
 function loadShader(gl, type, sourse) {
