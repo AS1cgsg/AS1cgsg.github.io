@@ -1,0 +1,33 @@
+@import url("https://matiaslescano.com.ar/static/fonts/pixelicious.css");
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+
+
+.animatedText {
+  font-family: Pixelicious, monospace;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  color: transparent;
+  filter: blur(0.3px);
+  animation: 2s ease-in-out infinite alternate pulse;
+}
+
+.video {
+  margin-top: 300px;
+}
+@keyframes pulse {
+  0% {
+    text-shadow: rgba(255, 255, 255, 0.9) - 0.06em, rgba(67, 144, 120, 0.9);
+  }
+  33% {
+    text-shadow: rgba(204, 255, 252, 0.9) - 0.15em, rgba(157, 94, 120, 0.9);
+  }
+  66% {
+    text-shadow: rgba(229, 255, 254, 0.9) - 0.06em, rgba(157, 94, 120, 0.9);
+  }
+  100% {
+    text-shadow: rgba(179, 255, 251, 0.9) - 0.6em, rgba(202, 69, 120, 0.9);
+  }
+}
