@@ -21,7 +21,7 @@ function loadShader(gl, type, sourse) {
   return shader;
 }
 
-function InitGL() {
+export function InitGL() {
   const canvas = document.getElementById("glCanvas");
   const gl = canvas.getContext("webgl2");
   gl.clearColor(1, 0, 0, 1);
